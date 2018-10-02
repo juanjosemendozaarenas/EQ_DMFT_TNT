@@ -1,0 +1,62 @@
+FOR COMPILATION:
+
+1. Setting up environment for compilation:
+	
+	export TNT_DEFAULT_INC=makefile_devrelease_nag.inc
+	module load openmpi/1.8.4__intel-2015
+	export DIR_NAG=/system/software/linux-x86_64/lib/nag/fortran/fll6i26dcl
+
+	The latter is for issue with nag license
+	
+	
+2. Compilation: type
+
+	make
+	
+	to compile the files of interest
+	
+	
+FOR RUNNING	
+
+1. Modify the files dmft_arcusb1.sh and load_arcusb1.sh as required.
+
+2. To run in front, for test, type the running instruction at the end of the file dmft_arcusb1.sh.
+
+../bin/main_EQ-DMFT_TNT -d /data/phys-tnt-library/jmendozaarenas/EQ_DMFT_TNT/output/ -o ../initfiles/init_eqdmft1.mat
+
+3. To run in background:
+
+./load_arcusb1.sh
+
+4. To run a group:
+
+./load_arcusb1.sh
+./load_arcusb2.sh
+./load_arcusb3.sh
+./load_arcusb4.sh
+./load_arcusb5.sh
+./load_arcusb6.sh
+./load_arcusb7.sh
+./load_arcusb8.sh
+./load_arcusb9.sh
+./load_arcusb10.sh
+./load_arcusb11.sh
+./load_arcusb12.sh
+./load_arcusb13.sh
+./load_arcusb14.sh
+./load_arcusb15.sh
+./load_arcusb16.sh
+./load_arcusb17.sh
+./load_arcusb18.sh
+./load_arcusb19.sh
+./load_arcusb20.sh
+./load_arcusb21.sh
+./load_arcusb22.sh
+./load_arcusb23.sh
+./load_arcusb24.sh
+./load_arcusb25.sh
+./load_arcusb26.sh
+./load_arcusb27.sh
+./load_arcusb28.sh
+./load_arcusb29.sh
+./load_arcusb30.sh

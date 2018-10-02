@@ -1,0 +1,37 @@
+Interactive sesion:
+
+qrsh -pe threads 8
+
+First modify the files tebd.sh and load.sh as required. Then:
+
+Run in front end:
+
+./tebd.sh
+
+Run in background:
+
+./load.sh
+
+Run groups in background:
+
+./load1.sh 
+./load2.sh
+./load3.sh
+./load4.sh
+./load5.sh
+./load6.sh
+./load7.sh 
+./load8.sh
+./load9.sh
+./load10.sh
+./load11.sh
+./load12.sh
+./load13.sh
+./load14.sh
+./load15.sh
+./load16.sh
+./load17.sh
+./load18.sh
+./load19.sh
+./load20.sh
+
